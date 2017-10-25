@@ -1,5 +1,7 @@
 # Env-Setup
 
+#### Requirements: Node >= 8
+
 Easy setup for production `.env` using `.env.[example|sample]` as template.
 
 ***Note: If you don't know what a `.env` file is check this package first [dotenv](https://www.npmjs.com/package/dotenv)***
