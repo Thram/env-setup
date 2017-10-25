@@ -2,7 +2,7 @@
 
 Easy setup for production `.env` using `.env.[example|sample]` as template.
 
-***Note: If you don't know what a `.env` file is check this module first [dotenv](https://www.npmjs.com/package/dotenv)***
+***Note: If you don't know what a `.env` file is check this package first [dotenv](https://www.npmjs.com/package/dotenv)***
 
 The template format uses the values as the description of the variable.
 

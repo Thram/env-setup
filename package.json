@@ -1,6 +1,6 @@
 {
   "name": "env-setup",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "CLI to easy setup your .env file",
   "main": "dist/index.js",
   "bin": {
@@ -10,13 +10,21 @@
   "author": "Thram <thramposo@gmail.com> (https://thram.github.io/)",
   "license": "MIT",
   "devDependencies": {
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.0.0",
     "eslint": "4.9.0",
     "eslint-config-airbnb-base": "12.1.0",
-    "eslint-plugin-import": "2.8.0"
+    "eslint-plugin-import": "2.8.0",
+    "semantic-release": "^8.2.0"
   },
   "dependencies": {
-    "hat": "0.0.3",
     "inquirer": "3.3.0",
     "lodash": "4.17.4"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "cz": "git add . && git cz",
+    "semantic-release":
+      "semantic-release pre && npm publish && semantic-release post"
   }
 }
