@@ -19,8 +19,18 @@ GOOGLE_API=Enter your Google API token
 GOOGLE_SECRET=Enter your Google access secret
 ```
 
+### Installation
+
+```bash
+npm i -g env-setup
+```
+
 ### Usage
 
-You just run `env-setup`
+You just run:
+
+```bash
+env-setup
+```
 
 ![Screenshot](env-setup-screenshot.png)
