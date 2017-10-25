@@ -15,13 +15,17 @@
     "eslint": "4.9.0",
     "eslint-config-airbnb-base": "12.1.0",
     "eslint-plugin-import": "2.8.0",
-    "semantic-release": "^8.2.0"
+    "semantic-release": "^8.2.0",
+    "tap-summary": "4.0.0",
+    "tape": "4.8.0"
   },
   "dependencies": {
     "inquirer": "3.3.0",
     "lodash": "4.17.4"
   },
   "scripts": {
+    "test": "tape __test__/**/*.js",
+    "test:summary": "yarn test | tap-summary",
     "start": "node src/index.js",
     "cz": "git add . && git cz",
     "semantic-release":
