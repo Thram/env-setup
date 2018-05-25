@@ -1,5 +1,7 @@
 # Env-Setup
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Thram/env-setup.svg)](https://greenkeeper.io/)
+
 #### Requirements: Node >= 8
 
 Easy setup for production `.env` using `.env.[example|sample]` as template.
