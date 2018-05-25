@@ -10,18 +10,18 @@
   "author": "Thram <thramposo@gmail.com> (https://thram.github.io/)",
   "license": "MIT",
   "devDependencies": {
-    "commitizen": "2.9.6",
-    "cz-conventional-changelog": "2.0.0",
-    "eslint": "4.9.0",
+    "commitizen": "2.10.1",
+    "cz-conventional-changelog": "2.1.0",
+    "eslint": "4.19.1",
     "eslint-config-airbnb-base": "12.1.0",
-    "eslint-plugin-import": "2.8.0",
-    "semantic-release": "^8.2.0",
+    "eslint-plugin-import": "2.12.0",
+    "semantic-release": "^15.5.0",
     "tap-summary": "4.0.0",
-    "tape": "4.8.0"
+    "tape": "4.9.0"
   },
   "dependencies": {
-    "inquirer": "3.3.0",
-    "lodash": "4.17.4"
+    "inquirer": "5.2.0",
+    "lodash": "4.17.10"
   },
   "scripts": {
     "test": "tape __test__/**/*.js",
